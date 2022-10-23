@@ -1,0 +1,21 @@
+body{
+    width: auto;
+    height:auto;
+    background: linear-gradient(90deg, #0B03FC 0%, #7303FC 100%);
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 77px;
+    background: rgba(0, 0, 0, 0.28);
+    color: white;
+}
+
+/* To-Do
+- terminar footer (criar botões e centralizar itens)
+- criar botão funcional que suba arquivo
+- inserir logo
+- inserir linha divisória
+- editar o player de vídeo
