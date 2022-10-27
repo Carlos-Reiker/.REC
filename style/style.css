@@ -68,7 +68,11 @@ p{
     left:1016px;
     bottom: 18px;
     
-}   
+}
+.inputArquivo{
+    display: none;
+}
+
 .github,
 .linkedin{
     display: inline;

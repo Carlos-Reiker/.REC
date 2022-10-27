@@ -16,16 +16,9 @@
         <div class="logo">
             <img class="rec" src="/images/REC.png" alt="">
         </div>
-        <input type="file" id="myfile" accept="video/*" onclick="myFunction()">
 
-       
-
-<p id="demo"></p>
-
-
-        <!--<video id="video" controls> 
-            <source src=/>
-        </video>-->
+      
+    
 
     </main>
     <footer>
@@ -38,6 +31,17 @@
                 <img src="/images/linkedin.png" alt="">
             </a>
        </div>
+
+       <div class="botaoArquivo">
+            Selecionar arquivo
+       </div>
+       <input type="file" id="inputArquivo">
+
+       <video id="playerVideo" controls>
+            <source src="" type="video/mp4">
+            <source src="" type="video/mkv">
+       </video>
+
     </footer>
     <script src="/script/script.js"></script>
 </body>
