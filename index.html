@@ -11,15 +11,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
-<body oncontextmenu="return false">
+<body>
     <main>
         <div class="logo">
             <img class="rec" src="/images/REC.png" alt="">
         </div>
-
-      
+        <div class="show">
+            <video width="1232" height="713" id="playerVideo" controls>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
     
-
+        <div class="btn-video">                 
+            <label>Selecionar vídeo 
+                <input type="file" id="inputVideo">
+            </label>  
+        </div> 
     </main>
     <footer>
        <p>Criado por Carlos Reiker<br>© 2022</p>
@@ -31,15 +38,6 @@
                 <img src="/images/linkedin.png" alt="">
             </a>
        </div>
-
-       <div class="botaoArquivo">
-            Selecionar arquivo
-       </div>
-       <input type="file" id="inputArquivo">
-
-       <video id="playerVideo" controls>
-            <source src="" type="video/mp4">
-       </video>
 
     </footer>
     <script src="/script/script.js"></script>

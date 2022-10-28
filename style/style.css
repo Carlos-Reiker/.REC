@@ -31,15 +31,41 @@ main{
     
     
 }
+.show{
+    position: absolute;
+    display: block;
+    width: 1232px;
+    height: 713px;
+    top: 40px;
+    left: 637px;
 
-#myfile{
-    position: relative;
-    width: 279px;
-    height: 70px;
-    left: 1129px;
-    top: 505px;
+background: #000000;
 }
-
+.btn-video{
+    width: 279px;
+    height: 70;
+    position: relative;
+    display: block;
+    top: 760px;
+    left: 1140px;
+}
+#inputVideo{
+    display: none;
+}
+label{   
+    padding: 20px 10px;
+    width: 200px;
+    background-color: #B62D90;
+    color: #FFF;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+                                /*RODAPÉ*/
 footer{
     position: absolute;
     left: 0;
@@ -70,10 +96,6 @@ p{
     bottom: 18px;
     
 }
-.inputArquivo{
-    display: none;
-}
-
 .github,
 .linkedin{
     display: inline;
